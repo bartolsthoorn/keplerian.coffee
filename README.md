@@ -25,6 +25,7 @@ console.log keplerian_position(mars, centuries_past_j2000)
 #  y: -0.013391064158330357,
 #  z: -0.03446125922330577 }
 ```
+The resulting coordinate (x, y, z) is in [AU](http://en.wikipedia.org/wiki/Astronomical_unit) (astronomical units) relative to the sun.
 
 See data.txt for coefficients for other planets. JPL also has another file with valid coefficients for other years (beyond 2050). To find it, with also the approximate errors, [go here](http://ssd.jpl.nasa.gov/?planet_pos).
 
